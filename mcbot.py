@@ -18,6 +18,7 @@ server_host = env.str("server")
 server_port = 25565
 reconnect = True
 bot_password = env.str("password")
+bot_suffix = env.str("name_suffix")
 
 
 class MCBot:
@@ -292,5 +293,5 @@ class MCBot:
 
 # Run function that starts the bot(s)
 #bot1 = MCBot("AFK_BOT_1")
-bot2 = MCBot("AFK_BOT_2")
-bot3 = MCBot("AFK_BOT_3")
+bot2 = MCBot(bot_suffix + "1")
+bot3 = MCBot(bot_suffix + "2")
