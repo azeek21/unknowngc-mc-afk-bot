@@ -6,9 +6,9 @@
     "start": "python3 mcbot.py"
   },
   "dependencies": {
-    "mineflayer": "^5.0.0",
-    "mineflayer-pathfinder": "^1.0.0",
-    "vec3": "^0.1.7"
+    "mineflayer": "^4.0.0",
+    "mineflayer-pathfinder": "^2.0.0",
+    "vec3": "^0.1.10"
   },
   "engines": {
     "node": ">=22.14.0"

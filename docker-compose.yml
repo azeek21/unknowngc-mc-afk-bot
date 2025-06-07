@@ -1,10 +1,9 @@
-version: "3.9"
-
 services:
   mcbot:
     build: .
     container_name: mineflayer_bot
     restart: unless-stopped
+    env_file: "stack.env"
     volumes:
       - .:/app
     environment:
