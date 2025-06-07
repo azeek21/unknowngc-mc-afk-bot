@@ -11,6 +11,8 @@ WORKDIR /app
 # Copy dependency files
 COPY package*.json ./
 COPY requirements.txt ./
+COPY mcbot.py ./
+COPY utils ./
 
 # Install dependencies
 RUN npm install
